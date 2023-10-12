@@ -1,0 +1,210 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Bitter', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    margin: auto;
+    background: #FFFFFF;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img{
+    width: 50px;
+}
+
+nav .menu ul, li ,a{
+    display: flex;
+    list-style-type: none;
+    color: black;
+    padding: 0px 10px 0px 7px;
+}   
+
+.welcome {
+    font-size: 60px;
+    font-weight: bold;
+   background: radial-gradient(76.23% 100.00% at 50.00% 100.00%, #FF7A00 0%, #5E0E9C 99.69%);
+    height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.welcome p{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.welcome img {
+    height: 40px;
+}
+
+.about {
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: row ;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(76.23% 100% at 50.00% 0.00%, #FF7A00 0%, #5E0E9C 99.69%);
+    color: white;
+    font-size: 14pt;
+    
+}
+
+.about .profil-kiri{
+    margin-right: 70px;
+}   
+
+.about img{
+    margin-left: 70px;
+}
+
+.about h2 {
+    margin-right: 70px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.about .profil-kiri a img {
+    margin-left: -7px;
+}
+
+.works {
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column ;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(76.23% 100% at 50.00% 0.00%, #5E0E9C  0%, #5E0E9C 99.69%);
+    color: white;
+    font-size: 14pt;
+}
+
+.works h1 {
+    font-size: 30pt;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.works .workspics img {
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.works .workspics #satu{
+    width: 510px;
+}
+
+.works .workspics #dua{
+    width: 465px;
+}
+.skills {
+    background: linear-gradient(180deg, #5E0E9C 0%, rgba(86, 11, 143, 0.00) 100%);
+    display: flex;
+    padding: 100px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+
+}
+
+.skills h1 {
+    font-size: 30pt;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+.skills .logo-aplikasi img {
+    width: 130px;
+    justify-content: space-between;
+    margin: 40px;
+
+}
+.contact {
+    background-color: white;
+    color: black;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h1{
+    font-size: 30pt;
+    margin-bottom: 50px;
+}
+
+.contact .kontak{
+    display: flex;
+    font-weight:500;
+}
+
+.contact .email{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.contact .email img{
+    margin-right: 10px;
+}
+
+.contact .instagram{    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact .instagram img{
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    font-family: 'Libre Barcode 128 Text';
+    font-size: 15pt;
+    font-weight: 550;
+    color: black;
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
+
+
+
+
